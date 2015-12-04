@@ -1,5 +1,5 @@
 <?php
-$file = file_get_contents('adventOfCode3_input.txt');
+$file = file_get_contents('input.txt');
 
 $xPart1 = 0;
 $yPart1 = 0;

@@ -1,5 +1,5 @@
 <?php
-$string = file_get_contents('adventOfCode1_input.txt');
+$string = file_get_contents('input.txt');
 
 $cpt = 0;
 $strLen = strlen($string);

@@ -1,5 +1,5 @@
 <?php
-$file = file_get_contents('adventOfCode2_input.txt');
+$file = file_get_contents('input.txt');
 
 $pattern = '#(\d+)x(\d+)x(\d+)#';
 preg_match_all($pattern, $file, $matches);
