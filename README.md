@@ -4,7 +4,7 @@ My PHP scripts for http://adventofcode.com/
 Nice solutions for day 5 [Shell]:
 ```shell
 Part1 : cat input.txt | grep "[aeiou].*[aeiou].*[aeiou]" | grep "\(.\)\1" | egrep -v "(ab|cd|pq|xy)" | wc -l
-Part2 : cat input.txt |  grep "\(..\).*\1" | grep "\(.\).\1" | wc -l
+Part2 : cat input.txt | grep "\(..\).*\1" | grep "\(.\).\1" | wc -l
 ```
 
 Nice solutions for day 8 [Python]:
