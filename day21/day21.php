@@ -81,6 +81,10 @@ foreach ($weaponList as $weapon) {
                 foreach ($secondRingList as $secondRing) {
                     $cost = $weapon['cost'] + $armor['cost'] + $firstRing['cost'] + $secondRing['cost'];
 
+                    if ($cost > $minCost && $cost < $maxCost) {
+                        continue;
+                    }
+
                     $currentPlayer = $player;
                     $currentPlayer['damage'] += $weapon['damage'] + $firstRing['damage'] + $secondRing['damage'];
                     $currentPlayer['armor'] += $armor['armor'] + $firstRing['armor'] + $secondRing['armor'];
